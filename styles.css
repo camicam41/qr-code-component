@@ -67,6 +67,18 @@ Adjust link color ++
     padding: 10px;
 }
 
-.attribution a { 
+.attribution a:link { 
     color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:visited { 
+    color: hsl(216, 15%, 48%); 
+}
+
+.attribution a:hover { 
+    color: black; 
+}
+
+.attribution a:focus { 
+    color: hsl(244, 80%, 44%); 
 }
