@@ -1,0 +1,72 @@
+/*TODO*****
+bg color
+white bg
+font sizing
+font families
+shadow on div
+rounded corners on div
+
+mobile vs desktop options
+
+widths:
+- Mobile: 375px
+- Desktop: 1440px
+***********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+/* Light blue background
+Outfit font*/
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+}
+
+/* H1 - dark blue, */
+h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+}
+
+.component {
+    background-color: white;
+    width: 320px;
+    max-width: 350px;
+    height: auto;
+    padding: .5rem;
+    border-radius: 2vh;
+    text-align: center;
+    margin-left: calc(100vw / 2);
+}
+
+/*IMG ******************************
+Center
+Sizing
+Padding/margins
+***********/
+.qr-code {
+    width: 100%;
+    border-radius: 1.5vh;
+}
+
+/*ATTRIBUTION ******************************
+Center ++
+Adjust link color ++
+*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
