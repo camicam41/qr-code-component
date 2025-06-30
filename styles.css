@@ -29,7 +29,7 @@ Padding/font size
 **************************/
 h1 {
     color: hsl(218, 44%, 22%);
-    padding: 16px 20px 10px;
+    padding: 20px 20px 10px;
     font-size: 1.4rem;
 }
 
@@ -39,7 +39,7 @@ Sizing ++
 **************************/
 p {
     color: hsl(216, 15%, 48%);
-    padding: 0px 20px 15px;
+    padding: 0px 20px 25px;
 }
 
 /* COMPONENT
@@ -54,9 +54,9 @@ Margins (top 100px, l/r auto to center, bottom 80px)
     background-color: white;
     width: 300px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 22px;
     text-align: center;
-    padding: 15px 20px;
+    padding: 18px 20px;
     margin: 100px auto 20px;
 }
 
@@ -69,14 +69,14 @@ Border radius for curved corners
 }
 
 /* ATTRIBUTION
-Center
+Center by adjusting margins
 Link colors to fit theme
 *********************************/
 .attribution {
     font-size: 11px;
     text-align: center;
-    width: 100%;
     margin: 0px auto 40px;
+    padding: 0px 20px 20px;
 }
 
 .attribution a:link { 
