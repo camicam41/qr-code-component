@@ -1,70 +1,87 @@
-/*TODO*****
-bg color
-white bg
+/* TODO
 font sizing
 font families
 shadow on div
 rounded corners on div
-
 mobile vs desktop options
 
 widths:
 - Mobile: 375px
 - Desktop: 1440px
-***********/
+*********************************/
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Outfit", sans-serif;
 }
 
-/* Light blue background
-Outfit font*/
+/* BODY Light grey/blue background
+Outfit font
+*********************************/
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", sans-serif;
 }
 
-/* H1 - dark blue, */
+/* H1 
+Dark blue font color
+Sizing ++
+Padding
+**************************/
 h1 {
     color: hsl(218, 44%, 22%);
+    padding: 16px 20px 10px;
+    font-size: 1.4rem;
 }
 
+/* P 
+Grey font color
+Sizing ++
+**************************/
 p {
     color: hsl(216, 15%, 48%);
+    padding: 0px 20px 15px;
 }
 
+/* COMPONENT
+Sizing ++
+Margins ++
+Center on page ++
+Min sizing ++
+Border radius for curved corners
+Text align center
+Padding ++ fix
+**************************/
 .component {
     background-color: white;
-    width: 320px;
-    max-width: 350px;
+    width: 300px;
     height: auto;
-    padding: .5rem;
-    border-radius: 2vh;
+    border-radius: 15px;
     text-align: center;
-    margin-left: calc(100vw / 2);
+    padding: 15px 20px;
+    margin: 100px calc(50vw - 150px) 80px;
 }
 
-/*IMG ******************************
-Center
+/* IMG
 Sizing
-Padding/margins
-***********/
+Border radius for curved corners
+Padding/margins ++
+*********************************/
 .qr-code {
-    width: 100%;
-    border-radius: 1.5vh;
+    max-width: 100%;
+    max-height: 320px;
+    border-radius: 10px;
 }
 
-/*ATTRIBUTION ******************************
-Center ++
-Adjust link color ++
-*/
+/* ATTRIBUTION
+Center
+Link colors to fit theme
+*********************************/
 .attribution {
     font-size: 11px;
     text-align: center;
     width: 100%;
-    padding: 10px;
+    margin: 10px;
 }
 
 .attribution a:link { 
