@@ -25,8 +25,7 @@ body {
 
 /* H1 
 Dark blue font color
-Sizing ++
-Padding
+Padding/font size
 **************************/
 h1 {
     color: hsl(218, 44%, 22%);
@@ -44,13 +43,12 @@ p {
 }
 
 /* COMPONENT
-Sizing ++
-Margins ++
-Center on page ++
-Min sizing ++
+White background
+Width fixed, 300px, Height auto
 Border radius for curved corners
 Text align center
-Padding ++ fix
+Padding for adjusting img/h1/p
+Margins (top 100px, l/r auto to center, bottom 80px)
 **************************/
 .component {
     background-color: white;
@@ -59,17 +57,14 @@ Padding ++ fix
     border-radius: 15px;
     text-align: center;
     padding: 15px 20px;
-    margin: 100px calc(50vw - 150px) 80px;
+    margin: 100px auto 80px;
 }
 
 /* IMG
 Sizing
 Border radius for curved corners
-Padding/margins ++
 *********************************/
 .qr-code {
-    max-width: 100%;
-    max-height: 320px;
     border-radius: 10px;
 }
 
@@ -81,7 +76,7 @@ Link colors to fit theme
     font-size: 11px;
     text-align: center;
     width: 100%;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .attribution a:link { 
